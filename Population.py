@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv('D:/data.csv')
+data = pd.read_csv('population_data.csv')
 
 # Select the relevant columns
 data = data[['Country Name', '2021']]
